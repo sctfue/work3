@@ -1,0 +1,726 @@
+.index {
+  display: none;
+}
+.index header {
+  height: 9.54rem;
+  background: transparent;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 110;
+}
+.index header .search {
+  width: 13.66rem;
+  height: 2.08rem;
+  border-radius: 0.8rem;
+  float: left;
+  background: #fff;
+  margin-left: 0.94rem;
+  margin-top: 0.66rem;
+}
+.index header .search span {
+  font-size: 1rem;
+  color: #727377;
+  float: left;
+  padding: 0.64rem 0 0 0.74rem;
+}
+.index header .search p {
+  color: #727377;
+  font-size: 0.74rem;
+  float: left;
+  padding: 0.5rem 0 0 0.5rem;
+}
+.index header .btn-login {
+  width: 5.84rem;
+  height: 2.08rem;
+  border-radius: 0.8rem;
+  background: #fff;
+  float: left;
+  margin: 0.66rem 0 0 0.5rem;
+}
+.index header .btn-login span {
+  width: 1rem;
+  height: 1rem;
+  float: left;
+  margin: 0.58rem 0 0 0.86rem;
+}
+.index header .btn-login p {
+  font-size: 0.78rem;
+  color: #242529;
+  margin: 0.3rem 0 0 2.1rem;
+}
+.index .con-all {
+  width: 21.6rem;
+  position: absolute;
+  top: 9.54rem;
+}
+.index .con-all nav {
+  width: 100%;
+  height: 5.18rem;
+  background: #fdfdfd;
+  padding-top: 1rem;
+}
+.index .con-all nav .nav-list {
+  height: 3.36rem;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: auto;
+}
+.index .con-all nav .nav-list li {
+  width: 3rem;
+  display: inline-block;
+  margin-left: 0.6rem;
+}
+.index .con-all nav .nav-list li a img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+}
+.index .con-all nav .nav-list li a p {
+  width: 100%;
+  font-size: 0.64rem;
+  color: #474747;
+  text-align: center;
+}
+.index .con-all nav .scoll-bar {
+  width: 2.34rem;
+  height: 0.2rem;
+  background: #e4e5e9;
+  margin: 0 auto;
+}
+.index .con-all nav .scoll-bar section {
+  width: 1.14rem;
+  height: 100%;
+  background: #ffdb25;
+}
+.index .con-all .content {
+  width: 100%;
+  height: 3.16rem;
+  position: relative;
+  background: #fff;
+}
+.index .con-all .content .content-list {
+  width: 100%;
+  height: 2rem;
+  margin: 0.6rem auto;
+  display: inline-block;
+}
+.index .con-all .content .content-list li {
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 0.68rem;
+  float: left;
+  font-size: 0.9rem;
+  color: #25262a;
+}
+.index .con-all .content .content-list li:nth-of-type(1) {
+  width: 6.26rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 0.8rem;
+  background: #ffde3e;
+  font-size: 0.88rem;
+  color: #25262a;
+}
+.index .con-all .content .content-list li:nth-of-type(1) span {
+  color: #bee0fb;
+  margin-top: 1rem;
+}
+.index .con-all .content .add {
+  width: 2.94rem;
+  height: 2rem;
+  position: absolute;
+  top: 0.6rem;
+  right: 0;
+  background: #fff;
+}
+.index .con-all .content .add .icon-jiahao {
+  width: 1.18rem;
+  height: 1.18rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 1rem;
+}
+.index .con-all .scenic {
+  width: 100%;
+}
+.login {
+  display: none;
+  background-color: transparent;
+}
+.login .login-cl {
+  display: none;
+}
+.login .login-cl video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  /*灰色调*/
+  /*-webkit-filter:grayscale(100%)*/
+}
+.login .login-cl header {
+  width: 100%;
+  height: 2.82rem;
+  padding: 0.86rem 0 0 1.08rem;
+}
+.login .login-cl header span {
+  width: 0.66rem;
+  height: 1.18rem;
+  color: #ffffff;
+}
+.login .login-cl .title {
+  height: 4.8rem;
+  margin-left: 1.72rem;
+}
+.login .login-cl .title h1 {
+  height: 3.46rem;
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 0.84rem 0;
+}
+.login .login-cl .title p {
+  height: 1.34rem;
+  line-height: 1.34rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.login .login-cl .content {
+  margin-left: 1.72rem;
+}
+.login .login-cl .content .con-p {
+  font-size: 0.8rem;
+  color: #fff;
+  height: 2.82rem;
+  line-height: 2.82rem;
+}
+.login .login-cl .content .phone {
+  width: 18.18rem;
+  height: 3.18rem;
+  line-height: 3.18rem;
+  background: #8c9898;
+  border-radius: 1.6rem;
+}
+.login .login-cl .content .phone .phone-p {
+  width: 2.8rem;
+  height: 100%;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 1.2rem;
+  float: left;
+}
+.login .login-cl .content .phone .phone-p span {
+  float: right;
+}
+.login .login-cl .content .phone input {
+  width: 8.8rem;
+  height: 1rem;
+  font-size: 0.96rem;
+  color: #fff;
+  background: none;
+  outline: none;
+  border: none;
+}
+.login .login-cl .content .phone input::placeholder {
+  color: #fff;
+}
+.login .login-cl .content button {
+  width: 18.18rem;
+  height: 3.18rem;
+  background: #c8cdd0;
+  border-radius: 1.6rem;
+  margin-top: 1.18rem;
+  font-size: 0.94rem;
+  color: #8b8f92;
+}
+.login .login-cl .content .mm {
+  margin-top: 1.32rem;
+  color: #fff;
+  font-size: 0.74rem;
+}
+.login .login-cl .bottom {
+  height: 8.14rem;
+  margin-left: 1.72rem;
+  margin-top: 6.9rem;
+}
+.login .login-cl .bottom .other {
+  width: 100%;
+  height: 2.34rem;
+  line-height: 2.34rem;
+  font-size: 0.74rem;
+  color: #c3c5c4;
+}
+.login .login-cl .bottom .btn-icon {
+  width: 100%;
+  height: 2.34rem;
+  line-height: 2.34rem;
+  display: block;
+}
+.login .login-cl .bottom .btn-icon span {
+  font-size: 2.34rem;
+  margin-right: 1.4rem;
+  color: #444e4f;
+}
+.login .login-cl .bottom .btn-xy {
+  font-size: 0.8rem;
+  color: #fff;
+  margin-top: 2.62rem;
+}
+.login .login-cl .bottom .btn-xy a {
+  font-size: 0.8rem;
+  color: #fff;
+}
+.login .login-zh header {
+  width: 100%;
+  height: 2.82rem;
+  padding: 0.86rem 0 0 1.08rem;
+}
+.login .login-zh header span {
+  width: 0.66rem;
+  height: 1.18rem;
+  color: #ffffff;
+}
+.login .login-zh .title {
+  height: 4.8rem;
+  margin-left: 1.72rem;
+}
+.login .login-zh .title h1 {
+  height: 3.46rem;
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 0.84rem 0;
+}
+.login .login-zh .title p {
+  height: 1.34rem;
+  line-height: 1.34rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.login .login-zh .content {
+  margin-left: 1.72rem;
+  margin-top: 4.7rem;
+}
+.login .login-zh .content .phone {
+  width: 18.18rem;
+  height: 3.18rem;
+  line-height: 3.18rem;
+  background: #8c9898;
+  border-radius: 1.6rem;
+}
+.login .login-zh .content .phone input {
+  height: 1rem;
+  font-size: 0.96rem;
+  color: #fff;
+  background: none;
+  outline: none;
+  border: none;
+}
+.login .login-zh .content .phone input::placeholder {
+  color: #fff;
+}
+.login .login-zh .content .pass {
+  width: 18.18rem;
+  height: 3.18rem;
+  line-height: 3.18rem;
+  background: #8c9898;
+  border-radius: 1.6rem;
+  margin-top: 0.6rem;
+}
+.login .login-zh .content .pass input {
+  width: 8.8rem;
+  height: 1rem;
+  font-size: 0.96rem;
+  color: #fff;
+  background: none;
+  outline: none;
+  border: none;
+}
+.login .login-zh .content .pass input::placeholder {
+  color: #fff;
+}
+.login .login-zh .content .pass span {
+  color: #fff;
+  float: right;
+  margin-right: 1rem;
+}
+.login .login-zh .content button {
+  width: 18.18rem;
+  height: 3.18rem;
+  background: #c8cdd0;
+  border-radius: 1.6rem;
+  margin-top: 1.18rem;
+  font-size: 0.94rem;
+  color: #8b8f92;
+}
+.login .login-zh .content .oth {
+  width: 18.16rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  margin-top: 1.3rem;
+}
+.login .login-zh .content .oth .oth-left {
+  font-size: 0.8rem;
+  float: left;
+  color: #fff;
+}
+.login .login-zh .content .oth .oth-left a {
+  color: #fff;
+}
+.login .login-zh .content .oth .oth-right {
+  font-size: 0.8rem;
+  float: right;
+  color: #fff;
+}
+.login .login-zh .bottom {
+  margin-left: 1.72rem;
+  padding-top: 5.12rem;
+}
+.login .login-zh .bottom .other {
+  width: 100%;
+  height: 2.34rem;
+  line-height: 2.34rem;
+  font-size: 0.74rem;
+  color: #c3c5c4;
+}
+.login .login-zh .bottom .btn-icon {
+  width: 100%;
+  height: 2.34rem;
+  line-height: 2.34rem;
+  display: block;
+}
+.login .login-zh .bottom .btn-icon span {
+  font-size: 2.34rem;
+  margin-right: 1.4rem;
+  color: #444e4f;
+}
+.login .login-zh .bottom .btn-xy {
+  font-size: 0.8rem;
+  color: #fff;
+  margin-top: 2.62rem;
+}
+.login .login-zh .bottom .btn-xy a {
+  font-size: 0.8rem;
+  color: #fff;
+}
+.my {
+  width: 100%;
+  height: 11.38rem;
+  background: #ffdb00;
+  position: relative;
+  display: none;
+}
+.my header {
+  width: 100%;
+  height: 2.32rem;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.my header .mui-icon-gear {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: #25262a;
+  padding: 0.62rem 0 0 0.96rem;
+}
+.my header .mui-icon-extra-sweep {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: #25262a;
+  padding: 0.64rem 0 0 3.54rem;
+}
+.my header .mui-icon-email {
+  width: 1.26rem;
+  height: 1.26rem;
+  color: #25262a;
+  padding: 0.64rem 0 0 14.30rem;
+}
+.my .title {
+  width: 100%;
+  height: 9.06rem;
+  position: relative;
+  top: 2.32rem;
+}
+.my .title h1 {
+  font-size: 1.24rem;
+  color: #25262a;
+  padding: 0.74rem 0 0 1.8rem;
+}
+.my .title p {
+  font-size: 0.74rem;
+  color: #3e2c00;
+  padding: 0.92rem 0 0 1.8rem;
+}
+.my .title button {
+  width: 7.6rem;
+  height: 2.56rem;
+  border-radius: 1.2rem;
+  background: #2d2e32;
+  font-size: 0.84rem;
+  color: #ffdb25;
+  margin: 1.14rem 0 0 1.72rem;
+}
+.my .content {
+  width: 100%;
+  background: #f6f7f9;
+  margin-top: 2.5rem;
+}
+.my .content .content-nav {
+  width: 19.78rem;
+  height: 4.64rem;
+  background: #ffffff;
+  border-radius: 0.3rem;
+  margin: 0 auto;
+  position: relative;
+  top: -1rem;
+}
+.my .content .content-nav .content-list {
+  width: 17.46rem;
+  height: 100%;
+  margin: 0 auto;
+}
+.my .content .content-nav .content-list li {
+  width: 5.80rem;
+  height: 100%;
+  float: left;
+}
+.my .content .content-nav .content-list li a img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0.8rem 0 0 2.2rem;
+}
+.my .content .content-nav .content-list li a p {
+  font-size: 0.76rem;
+  color: #25262a;
+  text-align: center;
+}
+.my .content .limit {
+  width: 19.78rem;
+  height: 3.7rem;
+  background: #fff;
+  border-radius: 0.3rem;
+  margin: 0 auto;
+}
+.my .content .limit img {
+  width: 2.22rem;
+  height: 2.22rem;
+  float: left;
+  margin: 0.86rem 0 0 0.8rem;
+}
+.my .content .limit .limit-center {
+  float: left;
+  margin-left: 0.46rem;
+}
+.my .content .limit .limit-center h2 {
+  font-size: 0.86rem;
+  font-weight: bolder;
+  color: #202125;
+  margin-top: 0.78rem;
+}
+.my .content .limit .limit-center p {
+  font-size: 0.64rem;
+  color: #3a3b3f;
+  margin-top: 0.6rem;
+}
+.my .content .limit button {
+  width: 4.42rem;
+  height: 1.68rem;
+  border-radius: 0.7rem;
+  background: #ffe351;
+  color: #26261a;
+  margin: 1.02rem 0 0 3rem;
+}
+.my .content .lighten {
+  width: 19.78rem;
+  height: 3.7rem;
+  background: #fff;
+  border-radius: 0.3rem;
+  margin: 0.48rem auto;
+}
+.my .content .lighten button {
+  width: 8.6rem;
+  height: 1.84rem;
+  background: #8452ff;
+  border-radius: 0.84rem;
+  font-size: 0.78rem;
+  color: #fff;
+  margin: 0.78rem 0 0 5.62rem;
+}
+.my .content .my-travel {
+  width: 19.78rem;
+  height: 8.86rem;
+  background: #fff;
+  border-radius: 0.3rem;
+  margin: 0.48rem auto;
+}
+.my .content .my-travel h2 {
+  height: 2.9rem;
+  line-height: 2.9rem;
+  font-size: 0.88rem;
+  font-weight: bolder;
+  color: #25262b;
+  margin: 0.98rem 0 0 0.82rem;
+}
+.my .content .my-travel .travel-btn {
+  width: 100%;
+}
+.my .content .my-travel .travel-btn button {
+  width: 11.56rem;
+  height: 3.24rem;
+  border-radius: 1.3rem;
+  background: #ffeb78;
+  margin-left: 4.14rem;
+}
+.my .content .my-travel a {
+  width: 100%;
+  font-size: 0.78rem;
+  color: #4e97fe;
+  margin: 0.84rem 0 0 5.92rem;
+}
+.my .content .service {
+  width: 19.78rem;
+  height: 8.86rem;
+  background: #fff;
+  border-radius: 0.3rem;
+  margin: 0.48rem auto;
+}
+.my .content .service h2 {
+  height: 2.9rem;
+  line-height: 2.9rem;
+  font-size: 0.88rem;
+  font-weight: bolder;
+  color: #25262b;
+  margin: 0.98rem 0 0 0.82rem;
+}
+.my .content .service .service-list li {
+  width: 4.94rem;
+  float: left;
+}
+.my .content .service .service-list li a img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0.2rem 0 0 1.5rem;
+}
+.my .content .service .service-list li a p {
+  font-size: 0.78rem;
+  color: #25262b;
+  text-align: center;
+}
+.travel {
+  display: block;
+}
+.travel header {
+  width: 100%;
+  height: 11.06rem;
+  position: fixed;
+  background: #ffe354;
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+}
+.travel header .search {
+  width: 100%;
+  height: 2.74rem;
+  margin-top: 0.32rem;
+  float: left;
+}
+.travel header .search span {
+  font-size: 1.2rem;
+  color: #fff;
+  float: left;
+  padding: 0.46rem 0 0 0.7rem;
+}
+.travel header .search .search-inp {
+  width: 16.14rem;
+  height: 2.12rem;
+  border-radius: 0.8rem;
+  background: #f8f5ee;
+  margin-left: 0.7rem;
+  float: left;
+}
+.travel header .search .search-inp .mui-icon-search {
+  width: 0.84rem;
+  height: 0.84rem;
+  color: #767676;
+  float: left;
+  margin: 0.2rem 0.4rem 0 6rem;
+}
+.travel header .search .search-inp p {
+  font-size: 0.94rem;
+  color: #767676;
+  float: left;
+  margin: 0.5rem 0 0 0.8rem;
+}
+.travel header .news .news-list {
+  width: 100%;
+  height: 4.54rem;
+  margin-top: 1rem;
+}
+.travel header .news .news-list li {
+  width: 4.18rem;
+  height: 4.54rem;
+  float: left;
+}
+.travel header .news .news-list li a img {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0 0.72rem;
+}
+.travel header .news .news-list li a p {
+  width: 100%;
+  height: 1.72rem;
+  line-height: 1.72rem;
+  font-size: 0.76rem;
+  color: #696037;
+  text-align: center;
+}
+.travel nav {
+  width: 20.7rem;
+  height: 10.72rem;
+  border-radius: 0.26rem;
+  background: #fff;
+  position: relative;
+  top: 7.9rem;
+  margin: 0 auto;
+}
+.travel nav .nav-list {
+  height: 7.56rem;
+}
+.travel nav .nav-list li {
+  width: 4.14rem;
+  height: 3.78rem;
+  float: left;
+}
+.travel nav .nav-list li a img {
+  width: 1.48rem;
+  height: 1.64rem;
+  margin: 0.44rem 1.44rem;
+}
+.travel nav .nav-list li a p {
+  font-size: 0.74rem;
+  color: #3b3c3e;
+  text-align: center;
+}
+.travel nav .nav-bottom {
+  width: 100%;
+  height: 2.34rem;
+  border-top: 2px solid #f3f4f6;
+}
+.travel nav .nav-bottom .nav-bot-list {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.travel nav .nav-bottom .nav-bot-list li {
+  width: 6.86rem;
+  height: 100%;
+  border-right: 2px solid #f3f4f6;
+  float: left;
+}

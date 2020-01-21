@@ -1,0 +1,65 @@
+@charset "utf-8";
+body{
+	background: green;
+}
+#header{
+	height: 1.72rem;
+	display: flex;
+	display: -webkit-flex;
+	background: transparent;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 110;
+}
+#header .left{
+	height: 1.72rem;
+	width: 3.72rem;
+	padding: 0.6rem 0 0 0.64rem;
+}
+#header .left span{
+	color: #fff;
+	font-size: 0.66rem;
+}
+#header .center{
+	height: 1.72rem;
+	width: 6.12rem;
+}
+#header .center .search{
+	width: 100%;
+	height: 1.16rem;
+	margin-top: 0.32rem;
+	background: #daeaf9;
+	border-radius: 0.3rem;
+}
+#header .center .search span{
+	color: #828c92;
+	font-size: 0.8rem;
+	padding: 0.2rem 0 0 0.6rem;
+}
+#header .center .search input{
+	width: 4.2rem;
+	height: 1.16rem;
+	border: none;
+	background: #daeaf9;
+	color: #828c92;
+	padding-left: 0.2rem;
+}
+#header .right{
+	height: 1.72rem;
+	width: 2.6rem;
+	padding: 0.6rem 0 0 0.4rem;
+}
+#header .right span:nth-of-type(1){
+	padding-top: 0.1rem;
+	padding-right: 0.15rem;
+}
+#header .right span{
+	font-size: 0.6rem;
+	color: #fff;
+}
+.navBanner{
+	width: 100%;
+	height: 6.78rem;
+}
